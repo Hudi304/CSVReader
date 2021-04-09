@@ -1,0 +1,24 @@
+{
+  "name": "proiecttq",
+  "version": "0.0.1",
+  "description": "api",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cmp": "tsc",
+    "run": "node ./compiled/app.js",
+    "cr": "tsc && node ./compiled/app.js"
+  },
+  "author": "TechQuarter",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.37"
+  },
+  "dependencies": {
+    "convert-csv-to-json": "^1.3.0",
+    "csv-parse": "^4.15.3",
+    "csv-parser": "^3.0.0",
+    "elasticsearch": "^16.7.2",
+    "get-json": "^1.0.1"
+  }
+}
